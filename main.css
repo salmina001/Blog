@@ -1,0 +1,66 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Nav bar styles */
+#nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: lightslategray;
+    color: darkslategrey;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.left-side {
+    display: flex;
+}
+
+#nav-bar > .left-side > div {
+    margin-right: 20px;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    word-spacing: .6in;
+}
+
+.nav-link-wrapper {
+    height: 22%;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom .5s;
+}
+
+.nav-link-wrapper a {
+    color: darkslategrey;
+    text-decoration: none;
+    transition: color .5s;
+    font-weight: bold;
+}
+
+.nav-link-wrapper:hover {
+    border-top: 2px solid darkgreen;
+}
+
+.nav-link-wrapper a:hover {
+    color: black;
+}
+
+.active-nav-link {
+    border-top: 2px solid black;
+}
+
+.active-nav-link a {
+    color: black !important;
+}
+
+.brand {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: darkblue;
+}
+
+.front-img {
+    width: 800px;
+    height: 300px;
+}
