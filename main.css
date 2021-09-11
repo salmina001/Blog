@@ -2,6 +2,10 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.header {
+    text-align: center;
+
+}
 /* Nav bar styles */
 #nav-bar {
     display: flex;
@@ -66,6 +70,11 @@ body {
     margin-left: .60rem;
 }
 
+.shrink {
+    width: 150px;
+    height: 150px;
+}
+
 .comment {
     margin-top: 1.78rem;
     border: 2px solid darkslategray;
@@ -101,6 +110,7 @@ body {
 
 .author {
     width: 300px;
+    display: grid;
 }
 
 .main-wrapper {
@@ -110,4 +120,17 @@ body {
 
 .footer {
     clear: both;
+    text-align: right;
+    left: 0;
+    right: auto;
+    resize: inherit;
+    padding-right: .75rem;
+    margin-right: .67rem;
+    margin-left: .67rem;
+    margin-top: .77rem;
+    background-color: lightblue;
+    margin-bottom: 0%;
+    font-family: Papyrus, monospace, serif;
 }
+
+/* Mobile and screen responsiveness */
