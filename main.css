@@ -10,7 +10,7 @@ body {
     background-color: lightslategray;
     color: darkslategrey;
     margin-top: 0%;
-    margin-bottom: 0%;
+    margin-bottom: .65rem;
 }
 
 .left-side {
@@ -60,7 +60,54 @@ body {
     color: darkblue;
 }
 
-.front-img {
+.img-wrapper {
+    margin-bottom: .59rem;
+    margin-right: .60rem;
+    margin-left: .60rem;
+}
+
+.comment {
+    margin-top: 1.78rem;
+    border: 2px solid darkslategray;
+    padding: 18px;
+    border-radius: 6px;
+}
+
+.comment:hover {
+    background-color: rgba(14, 74, 92, 0.486);
+}
+
+.submit-btn {
+    margin-top: .34rem;
+    background-color: dimgrey;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    color: darkblue;
+    background-color: darkkhaki;
+    border-radius: 4px;
+}
+
+.author,
+.comment {
+    float: left;
+}
+
+.comment > form {
+    display: grid;
+}
+
+.author {
+    width: 300px;
+}
+
+.main-wrapper {
     width: 800px;
-    height: 300px;
+    float: right;
+}
+
+.footer {
+    clear: both;
 }
